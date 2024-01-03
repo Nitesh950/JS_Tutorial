@@ -18,6 +18,27 @@ while(i<num){
    i++;
 }
 
+//for of loop -> used to iterate over strings, and arrays
+
+let school = "Army School";
+
+for(let char of school){
+    console.log(char);
+}
+
+//for in loop -> used to iterate overs keys in an object
+
+const student={
+    name : "Nitesh",
+    rollNo : 39,
+    age: 25
+};
+
+for(let val in student){
+    console.log(val, "->", student[val]);
+}
+
+
 
 
 //string and its methods
