@@ -26,6 +26,7 @@ let divAttribute = heading.getAttribute("class");
 console.log(divAttribute);
 heading.setAttribute("class", "main-heading-alt");
 
+
 //adding element to our div
 
 //step 1 -> create an element
@@ -43,10 +44,23 @@ heading.append(submitButton);
 
 //manipulating the style of the button through JS
 
+heading.style.display="flex";
+heading.style.flexWrap="wrap";
+heading.style.alignItems="center";
+heading.style.justifyContent="center";
+
+
 submitButton.style.width = "200px";
 submitButton.style.height="50px";
 submitButton.style.margin="20px";
 submitButton.style.borderRadius="25px";
+
+
+//adding two classes to one element
+
+let headingClasses = heading.classList;
+console.log(headingClasses);
+headingClasses.add("main-heading");
 
 
 
