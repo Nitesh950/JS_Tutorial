@@ -5,6 +5,8 @@
 //query selector gives the first occurence of the tag/class/id. For fetching class, use .(dot). For id, use #
 let heading = document.querySelector(".main-heading");
 
+//there are  other ways to access elements such as, getElementById("idName"), getElementByClassName("className"),
+//getElementByTagName("tagName"). But querySelector is the most popular one
 
 //querySelectoreAll gives all occurences in the form of a node list
 console.log(heading);
