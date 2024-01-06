@@ -11,3 +11,14 @@
     background-color: cornflowerblue;
 }
 
+.dark{
+    width:200px;
+    height: 50px;
+    margin : 20px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 200;
+    border-radius: 25px;
+    
+}
+
