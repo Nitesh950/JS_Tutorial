@@ -25,7 +25,7 @@ boxes.forEach((box) => {
       turn0 = true;
     }
     box.disabled = true; //disable each box after input is taken
-    checkWinner();  //winner is checked after each input
+    checkWinner(); //winner is checked after each input
   });
 });
 
