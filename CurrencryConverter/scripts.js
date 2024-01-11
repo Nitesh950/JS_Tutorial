@@ -5,7 +5,7 @@ let button = document.querySelector(".btn");
 window.addEventListener("load", convert);
 
 
-let dropdowns = document.querySelectorAll(".country select");
+let dropdowns = document.querySelectorAll(".country-selector select");
 
 for(let select of dropdowns){
     for(let codes in countryList){
