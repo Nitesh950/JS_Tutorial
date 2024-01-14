@@ -18,7 +18,7 @@ body{
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 1rem;
+    border-radius: 2rem;
     /* padding:1rem; */
 }
 
@@ -30,7 +30,7 @@ body{
     align-items: center;
     justify-content: center;
     font-size:2rem;
-    color:#365654;
+    color:#8E7C93;
     font-weight: 700;
 }
 
